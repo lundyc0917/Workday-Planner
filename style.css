@@ -29,20 +29,21 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
-  justify-content: center;
+  position: relative;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-bottom: 5px solid white;
+  justify-content: center;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-  width: 100px
+  width: 100px;
 }
 
 .past {
