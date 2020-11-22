@@ -11,6 +11,7 @@ Create a daily planner to add tasks to in order to stay organized throughout the
 build | in-progress
 
 ## Screen Shot
+![](https://github.com/lundyc0917/Workday-Planner/blob/main/Assets/planner-screenshot.png)
 
 
 ## Framework
