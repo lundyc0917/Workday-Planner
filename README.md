@@ -1,22 +1,21 @@
 # Workday-Planner
-Planner for the current workday.
+A planner for your current workday.
 
 
 ## Link to Site
+https://lundyc0917.github.io/Workday-Planner/
 
 ## Motivation
 Create a daily planner to add tasks to in order to stay organized throughout the day.
 
 ## Build Status
-build | in-progress
+build | working
 
 ## Screen Shot
-![](https://github.com/lundyc0917/Workday-Planner/blob/main/Assets/planner-screenshot.png)
+![planner-screenshot](https://user-images.githubusercontent.com/71233342/99986292-000dd300-2d7d-11eb-86f4-b27d0e479ebc.png)
 
 
 ## Framework
-
-Built using:
 
 Built Using:
  - JavaScript
