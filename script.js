@@ -34,3 +34,7 @@ saveButtonEl.on("click", function(){
 
   localStorage.setItem(scheduleTime, scheduleEntry);
 });
+
+// function setDay (){
+//   $(".time-block")
+// }
