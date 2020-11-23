@@ -12,6 +12,8 @@ function currentDay() {
 currentDay();
 
 
+
+
 // create For loop to change the background color of the time blocks
 for(i = 8; i < 18; i++) {
   var timeSlot = "#hour" + i;
@@ -26,7 +28,6 @@ for(i = 8; i < 18; i++) {
   }
 }
 
-// TODO Add save button action to save information in the text box to local storage
 
 saveButtonEl.on("click", function(){
   var scheduleTime = $(this).parent().attr("id");
@@ -35,6 +36,15 @@ saveButtonEl.on("click", function(){
   localStorage.setItem(scheduleTime, scheduleEntry);
 });
 
-// function setDay (){
-//   $(".time-block")
-// }
+
+function returnSchedule (){
+  $(".time-block").each( function (){
+    var idElement = $(this).attr("id");
+    var scheduleEntry = localStorage.getItem(idElement);
+    
+    $(this).children(".description").val(scheduleEntry);
+  });
+}
+
+returnSchedule();
+
